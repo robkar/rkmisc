@@ -1,11 +1,14 @@
 Package: rkmisc
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Helps RK Use R
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: person("Robert", "Karlsson", email="robkar@gmail.com", 
+  role = c("aut", "cre"),
+  comment = c(ORCID = "0000-0002-8949-2587"))
+Description: A collection of R functions Robert Karlsson thought would be useful
+    at some point.
+URL: https://github.com/robkar/rkmisc
+BugReports: https://github.com/robkar/rkmisc/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

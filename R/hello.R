@@ -13,6 +13,17 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
+
+
+#' Hello, World!
+#'
+#' Prints 'Hello, world!'.
+#'
+#' @return The string "Hello, world!", invisibly
+#' @export
+#'
+#' @examples
+#' hello()
 hello <- function() {
   print("Hello, world!")
 }
